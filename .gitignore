@@ -1,0 +1,20 @@
+# Không bỏ gì chính trong WordPress
+
+# Bỏ file hệ thống của hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Bỏ file IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Bỏ file tạm
+*.log
+*.tmp
+*.bak
+*.cache
+
+# Bỏ file .env nếu có chứa thông tin mật
+.env
